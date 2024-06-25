@@ -1,0 +1,18 @@
+{
+  "name": "meganotes",
+  "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "",
+    "start": "",
+    "test": ""
+  },
+  "keywords": [
+    " Typescript",
+    "Node",
+    "Notes"
+  ],
+  "author": "Obi Anthony",
+  "license": "MIT"
+}
