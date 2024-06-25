@@ -21,5 +21,11 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.5.2",
     "vitest": "^1.6.0"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
   }
 }
