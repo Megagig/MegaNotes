@@ -1,7 +1,12 @@
 import { app } from './app';
 import { initDB } from './database';
+import { loadEnv } from './utils/load-env';
 
 const PORT = 3000;
+
+loadEnv();
+
+console.log(process.env.PORT);
 
 initDB()
   .then(() => {
