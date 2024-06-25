@@ -16,6 +16,8 @@
   "author": "Obi Anthony",
   "license": "MIT",
   "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/jsonwebtoken": "^9.0.6",
     "@types/node": "^20.14.8",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
