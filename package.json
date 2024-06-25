@@ -5,8 +5,9 @@
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
+    "build": "node --loader ts-node/esm esbuild.config.ts",
     "dev": "nodemon",
-    "start": "",
+    "start": "node ./build/index.js",
     "test": ""
   },
   "keywords": [
@@ -31,5 +32,8 @@
     "jsonwebtoken": "^9.0.2",
     "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7"
+  },
+  "engines": {
+    "node": "20"
   }
 }
