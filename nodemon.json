@@ -2,5 +2,5 @@
   "watch": ["src"],
   "ext": "ts",
   "ignore": ["src/**/*.test.ts", "node_modules"],
-  "exec": "node --experimental-modules --es-module-specifier-resolution=node --loader ts-node/esm src/index.ts"
+  "exec": "NODE_NO_WARNINGS=1 node --experimental-modules --es-module-specifier-resolution=node --loader ts-node/esm src/index.ts"
 }
