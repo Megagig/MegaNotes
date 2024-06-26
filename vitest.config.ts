@@ -7,5 +7,11 @@ export default defineConfig({
     environment: 'node',
     setupFiles: [],
     restoreMocks: true,
+    coverage: {
+      provider: 'v8',
+      exclude: ['**/__tests__/**'],
+      include: ['src/**/*.ts'],
+      all: true,
+    },
   },
 });

@@ -8,7 +8,8 @@
     "build": "node --loader ts-node/esm esbuild.config.ts",
     "dev": "nodemon",
     "start": "node ./build/index.js",
-    "test": "vitest"
+    "test": "vitest",
+    "test:coverage": "vitest --coverage"
   },
   "keywords": [
     " Typescript",
@@ -21,6 +22,7 @@
     "@types/fs-extra": "^11.0.4",
     "@types/jsonwebtoken": "^9.0.6",
     "@types/node": "^20.14.8",
+    "@vitest/coverage-v8": "^1.6.0",
     "esbuild": "^0.21.5",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
