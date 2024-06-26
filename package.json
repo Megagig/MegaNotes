@@ -9,6 +9,7 @@
     "dev": "nodemon",
     "start": "node ./build/index.js",
     "test": "vitest",
+    "test:ui": "vitest --ui",
     "test:coverage": "vitest --coverage"
   },
   "keywords": [
@@ -23,6 +24,7 @@
     "@types/jsonwebtoken": "^9.0.6",
     "@types/node": "^20.14.8",
     "@vitest/coverage-v8": "^1.6.0",
+    "@vitest/ui": "^1.6.0",
     "esbuild": "^0.21.5",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
